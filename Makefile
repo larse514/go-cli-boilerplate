@@ -2,10 +2,10 @@ GOFILES = $(shell find . -name '*.go' -not -path './vendor/*')
 BINARY_NAME = hello-cli
 default: clean dependencies test build
 
-build: easyasync-cli
+build: hello-cli
 
-easyasync-cli: $(GOFILES)
-	go build -o easyasync-cli -o $(BINARY_NAME)  . 
+hello-cli: $(GOFILES)
+	go build -o hello-cli -o $(BINARY_NAME)  . 
 
 dependencies: 
 	@go get gopkg.in/urfave/cli.v1
