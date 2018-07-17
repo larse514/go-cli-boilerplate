@@ -1,9 +1,8 @@
-# easyaysnc-cli
-CLI for working with EasyAsync 
+# hello-cli
+CLI for saying hello! And also learning go
 
 ## commands
 
 | command  | parameters   | description                                  |
 |----------|--------------|----------------------------------------------|
-| init     | none         | command to create easyasync infrastructure   |
-| register | service-name | command to register a service with easyasync |
+| hello    | name         | command to say hello to someone              |
