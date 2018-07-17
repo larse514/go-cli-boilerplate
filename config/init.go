@@ -12,7 +12,7 @@ func CreateApp() *cli.App {
 	app.Name = "easyasync"
 	app.Usage = "Command line interface for easyasync cli"
 	app.Version = "0.0.1"
-	app.Author = "VSS"
+	app.Author = "larse514"
 
 	app.Commands = []cli.Command{
 		commands.Hello(),
